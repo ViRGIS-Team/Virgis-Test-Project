@@ -1,0 +1,9 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+Plugins/*
+Plugins.meta
+pixi
+pixi.meta
+pixi.exe
+pixi.exe.meta
