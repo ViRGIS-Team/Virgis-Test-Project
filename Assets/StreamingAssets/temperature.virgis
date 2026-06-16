@@ -1,0 +1,416 @@
+{
+  "recordsets": [
+    {
+      "datatype": "CSV",
+      "source": "temperature.csv",
+      "properties": {
+        "hide-sublayers": null
+      },
+      "proj4": "",
+      "units": {},
+      "data_units": [
+        {
+          "name": "Yearly Average",
+          "transform": {
+            "translate": [
+              0,
+              0,
+              0
+            ],
+            "rotate": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "representation": "Points",
+          "source_table": null,
+          "x_range": "index",
+          "z_range": "Annual mean temperature",
+          "y_range": null,
+          "axis_order": "EUN",
+          "label_range": null,
+          "units": {
+            "point": {
+              "texture-image": "",
+              "color": [
+                0.2125,
+                0.1,
+                1,
+                1
+              ],
+              "transform": {
+                "translate": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotate": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.1,
+                  0.1,
+                  0.1
+                ]
+              },
+              "label": "",
+              "shape": "Spheroid",
+              "color-mode": "SinglebandGrey",
+              "colorinterp": {}
+            }
+          }
+        },
+        {
+          "name": "Trend",
+          "transform": {
+            "translate": [
+              0,
+              0,
+              0
+            ],
+            "rotate": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "representation": "Line",
+          "source_table": null,
+          "x_range": "index",
+          "z_range": "Annual mean temperature (trend)",
+          "y_range": null,
+          "axis_order": "EUN",
+          "label_range": null,
+          "units": {
+            "line": {
+              "texture-image": "",
+              "color": [
+                0.2125,
+                0.1,
+                1,
+                1
+              ],
+              "transform": {
+                "translate": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotate": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.1,
+                  0.1,
+                  0.1
+                ]
+              },
+              "label": "",
+              "shape": "Cuboid",
+              "color-mode": "SinglebandGrey",
+              "colorinterp": {}
+            },
+            "point": {
+              "texture-image": "",
+              "color": [
+                0.2125,
+                0.1,
+                1,
+                1
+              ],
+              "transform": {
+                "translate": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotate": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.1,
+                  0.1,
+                  0.1
+                ]
+              },
+              "label": "",
+              "shape": "Cuboid",
+              "color-mode": "SinglebandGrey",
+              "colorinterp": {}
+            }
+          }
+        },
+        {
+          "name": "Trend Area",
+          "transform": {
+            "translate": [
+              0,
+              0,
+              1
+            ],
+            "rotate": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "representation": "Area",
+          "source_table": null,
+          "x_range": "index",
+          "z_range": "Annual mean temperature (trend)",
+          "y_range": null,
+          "axis_order": "EUN",
+          "label_range": null,
+          "units": {
+            "line": {
+              "texture-image": "",
+              "color": [
+                0.2125,
+                0.1,
+                1,
+                1
+              ],
+              "transform": {
+                "translate": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotate": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.1,
+                  0.1,
+                  0.1
+                ]
+              },
+              "label": "",
+              "shape": "Cuboid",
+              "color-mode": "SinglebandGrey",
+              "colorinterp": {}
+            },
+            "point": {
+              "texture-image": "",
+              "color": [
+                0.2125,
+                1,
+                1,
+                1
+              ],
+              "transform": {
+                "translate": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotate": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.1,
+                  0.1,
+                  0.1
+                ]
+              },
+              "label": "",
+              "shape": "Spheroid",
+              "color-mode": "SinglebandGrey",
+              "colorinterp": {}
+            },
+            "body": {
+              "texture-image": "",
+              "color": [
+                0.2125,
+                1,
+                1,
+                1
+              ],
+              "transform": {
+                "translate": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotate": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.1,
+                  0.1,
+                  0.1
+                ]
+              },
+              "label": "",
+              "shape": "Spheroid",
+              "color-mode": "SinglebandGrey",
+              "colorinterp": {}
+            }
+          }
+        }
+      ],
+      "id": "001",
+      "display-name": "Temperature Data",
+      "position": null,
+      "transform": {
+        "translate": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          0.1,
+          10,
+          1
+        ]
+      }
+    },
+    {
+      "datatype": "CSV",
+      "source": "teapot.csv",
+      "properties": {
+        "hide-sublayers": null
+      },
+      "proj4": "",
+      "units": {},
+      "data_units": [
+        {
+          "name": "Teapot",
+          "transform": {
+            "translate": [
+              0,
+              0,
+              0
+            ],
+            "rotate": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "representation": "Points",
+          "source_table": null,
+          "x_range": "X",
+          "z_range": "Y",
+          "y_range": "Z",
+          "label_range": null,
+          "units": {
+            "point": {
+              "texture-image": "",
+              "color": [
+                0.2125,
+                0.1,
+                1,
+                1
+              ],
+              "transform": {
+                "translate": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotate": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.1,
+                  0.1,
+                  0.1
+                ]
+              },
+              "label": "",
+              "shape": "Spheroid",
+              "color-mode": "SinglebandGrey",
+              "colorinterp": {}
+            }
+          }
+        }
+      ],
+      "id": "002",
+      "display-name": "Teapot Data",
+      "position": null,
+      "transform": {
+        "translate": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    }
+  ],
+  "version": "Virgis:3.0.0",
+  "name": "Temperature",
+  "origin": {
+    "type": "Point",
+    "coordinates": [
+      0,
+      0
+    ]
+  },
+  "default_proj": "EPSG:4326",
+  "map_scale": 1,
+  "guid": "5fd207c7-550c-43e9-b8b9-9233a8f0187d"
+}
