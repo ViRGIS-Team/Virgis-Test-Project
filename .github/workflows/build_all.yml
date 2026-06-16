@@ -24,12 +24,12 @@ jobs:
         with:
           lfs: true
 
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
           path: Library
           key: Library-${{ matrix.name }}
           restore-keys: |
-            Library${{ matrix.name }}
+            Library-${{ matrix.name }}
             Library-
 
 
@@ -77,12 +77,12 @@ jobs:
         with:
           lfs: true
 
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
           path: Library
           key: Library-${{ matrix.name }}
           restore-keys: |
-            Library${{ matrix.name }}
+            Library-${{ matrix.name }}
             Library-
 
 
@@ -134,12 +134,12 @@ jobs:
         with:
           lfs: true
 
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
           path: Library
           key: Library-${{ matrix.name }}
           restore-keys: |
-            Library${{ matrix.name }}
+            Library-${{ matrix.name }}
             Library-
 
 
