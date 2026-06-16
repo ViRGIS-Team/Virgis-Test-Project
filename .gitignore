@@ -79,3 +79,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/proj.meta
 /[Aa]ssets/[Ss]treamingAssets/proj/*
 
+Assets/Conda/pitr.exe
+Assets/Conda/pitr.exe.meta
