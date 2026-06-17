@@ -351,7 +351,7 @@
         "com.virgis.geojson.net": "1.2.22",
         "com.unity.netcode.gameobjects": "2.12.0"
       },
-      "hash": "8f63e11a1c4fcf0a81dc13380f9879558576c1a8"
+      "hash": "6d9fcc87cd0f0b436691312390bbce6dd32fc43e"
     },
     "org.nuget.csvhelper": {
       "version": "33.1.0",

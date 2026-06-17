@@ -1,5 +1,4 @@
 using UnityEngine;
-using Unity.Netcode;
 using Virgis;
 using Project;
 using System;
@@ -28,7 +27,7 @@ public class MapInit : MapInitializePrototype
             Debug.Log("instantiate app state");
             Instantiate(appState);
         }
-        Debug.Log($"Virgis version : {Application.version}");
+        Debug.Log($"Test Application version : {Application.version}");
         State.instance.MapInitialize = this;
         State.instance.Map = gameObject;
     }
@@ -36,12 +35,6 @@ public class MapInit : MapInitializePrototype
     private new void Start()
     {
         base.Start();
-        // Start the Host 
-        //
-        Debug.Log("Starting Server");
-        NetworkManager.Singleton.StartHost();
-        //Load the project
-        //
         Load(Path.Combine(Application.streamingAssetsPath, LoadOnStartup));
     }
 
@@ -117,6 +110,11 @@ public class MapInit : MapInitializePrototype
     public override void Add(MoveArgs args)
     {
         throw new NotImplementedException();
+    }
+
+    public override void Loaded(VirgisLayer layer)
+    {
+        // do nothing
     }
 }
 
